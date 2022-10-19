@@ -3,12 +3,12 @@ body {
 }
 
 [data-theme="light"] {
-  --background-color: #FFF7FB;
-  --primary-color: #4C062E;
-  --additional-color: #DE59A4;
-  --additional-background-color: #DE7CB3;
-  --switcher-background: #F1C5DE;
-  --header-background: url('https://abrakadabra.fun/uploads/posts/2022-03/1646986130_1-abrakadabra-fun-p-oboi-rozovoe-nebo-1.jpg');
+  --background-color: #EEFBFF;
+  --primary-color: #0A222A;
+  --additional-color: #0C6F90;
+  --additional-background-color: #47b4e0;
+  --switcher-background: #A4E8FF;
+  --header-background: url('https://static.vecteezy.com/system/resources/previews/004/141/314/original/blue-sky-wallpaper-clear-air-heavenly-background-illustration-vector.jpg');
   --switcher: left;
   --buttons-background: rgba(235, 235, 235, 1);
 ;

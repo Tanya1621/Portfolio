@@ -15,6 +15,7 @@
   text-align: left;
   font-size: $size-main-text;
   margin-left: 100px;
+  max-width: calc(100% - 200px);
 }
 
 .education__place {
