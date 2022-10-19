@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0715dc02.css",
+    "main.js": "./static/js/main.da61595c.js",
+    "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
+    "static/media/Pie-project.png": "./static/media/Pie-project.273e5b97981ad9adcaa0.png",
+    "static/media/travel.png": "./static/media/travel.fb47cc340c548734e648.png",
+    "static/media/mesto-r.png": "./static/media/mesto-r.e03bbecee5b3993b264e.png",
+    "static/media/how-to-learn.png": "./static/media/how-to-learn.22a46e3766a6b9a9276d.png",
+    "static/media/lisa.png": "./static/media/lisa.de6b1acbf87066bf676b.png",
+    "static/media/jpeg": "./static/media/ea1d9797c9bf3dda7a23b238e5e4b364.b22c56e7646a101c2c3f.jpeg",
+    "static/media/burger-project.png": "./static/media/burger-project.1c0f38b8367ce24cf102.png",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/github-black.svg": "./static/media/github-black.f4780a7504544f03813ed85abb4ff286.svg",
+    "static/media/github-white.svg": "./static/media/github-white.b7c8dc98d3c7575fc140dc96c0d2b4e1.svg",
+    "index.html": "./index.html",
+    "static/media/link-light.svg": "./static/media/link-light.0a56fa40a2e827844b02b04075c88eb4.svg",
+    "static/media/link.svg": "./static/media/link.c620926088911c707f3dd96e9afc8c4a.svg",
+    "main.0715dc02.css.map": "./static/css/main.0715dc02.css.map",
+    "main.da61595c.js.map": "./static/js/main.da61595c.js.map",
+    "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0715dc02.css",
+    "static/js/main.da61595c.js"
+  ]
+}
