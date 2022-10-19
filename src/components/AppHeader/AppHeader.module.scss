@@ -1,0 +1,55 @@
+@import "../../variables.scss";
+
+.header {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+    color: $main-font-color;
+    background-image: var(--header-background);
+}
+
+.header__name_wrapper {
+    display: flex;
+}
+
+.header__name {
+    font-family: $font-family-main;
+    font-size: $size-headings;
+    margin: 0;
+}
+
+.header__surname {
+    composes: header__name;
+    color: $secondary-color;
+
+}
+
+.header__list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-family: $font-family-main;
+}
+.header__list_item {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: $main-font-color;
+    transition: color .3s ease;
+}
+
+.header__list_item:hover {
+    color: $secondary-color;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

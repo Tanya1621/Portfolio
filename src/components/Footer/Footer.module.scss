@@ -1,0 +1,30 @@
+@import "../../variables";
+
+.footer {
+  min-height: 100px;
+  background-color: $background-block-color;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer__text {
+  @include font-color-main;
+  margin-right: 20px;
+}
+.switch {
+  width: 50px;
+  height: 30px;
+  background-color: var(--switcher-background);
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.switcher__circle {
+ width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: $main-font-color;
+}

@@ -1,0 +1,112 @@
+@import "../../variables";
+
+p {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+
+.project {
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 350px;
+  position: relative;
+  max-width: 800px;
+
+}
+
+
+.project__heading {
+  @include font-color-main;
+  font-size: $size-headings;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.project__technologies  {
+  @include font-color-secondary;
+  font-size: $size-main-text;
+  text-align: left;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.project__description {
+  width: 400px;
+  min-height: 100px;
+  vertical-align: middle;
+  @include font-color-main;
+  font-size: $size-main-text;
+  background-color: $background-block-color;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
+p {
+  margin: auto;
+  text-align: left;
+}
+.project__field {
+  display: flex;
+  width: calc(100% - 200px);
+}
+
+.project__pic {
+  width: 450px;
+  height: 300px;
+  z-index: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+
+
+.project__pic_cover {
+  composes: project__pic;
+  opacity: 0.5;
+  background-color: $background-block-color;
+  transition: opacity 0.3s ease;
+  color: $main-font-color;
+  font-size: $size-main-text;
+  display: flex;
+}
+
+.project_capture {
+  font-size: $size-headings;
+  margin: auto;
+}
+
+.project__pic_cover:hover {
+  opacity: 0;
+}
+
+.project__links {
+  font-size: 16px;
+  color: white;
+  text-align: left;
+}
+
+.project__github_img {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  margin-right: 10px;
+  transition: opacity .3s ease;
+}
+
+.project__github_img:hover{
+  opacity: .5;
+}

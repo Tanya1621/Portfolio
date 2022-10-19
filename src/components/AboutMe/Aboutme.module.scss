@@ -1,0 +1,25 @@
+@import "../../variables";
+
+.main__heading_section {
+  @include heading
+}
+.main__heading{
+  @include font-color-main;
+  font-size: $size-headings;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.education__prof{
+  @include font-color-main;
+  text-align: left;
+  font-size: $size-main-text;
+  margin-left: 100px;
+}
+
+.education__place {
+  composes: education__prof;
+  color: $secondary-color;
+  margin-bottom: 20px;
+
+}

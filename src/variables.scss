@@ -1,0 +1,29 @@
+$main-font-color: var(--primary-color);
+$secondary-color: var(--additional-color);
+$font-family-main: 'Helvetica';
+$size-main-text: 20px;
+$size-headings: 30px;
+$background-block-color: var(--additional-background-color);
+
+//#112240
+
+//#1B463A
+
+@mixin font-color-main {
+  font-family: $font-family-main;
+  color: $main-font-color;
+}
+
+@mixin font-color-secondary {
+  font-family: $font-family-main;
+  color: $secondary-color;
+}
+
+@mixin heading {
+  font-family: $font-family-main;
+  color: $secondary-color;
+  font-size: 32px;
+  margin: 20px 0 20px 100px;
+  text-align: left;
+
+}
