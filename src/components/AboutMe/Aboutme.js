@@ -1,7 +1,8 @@
 import style from "./Aboutme.module.scss";
+import {Animated} from "../Animated/Animated";
 
 export const AboutMe = () => {
-    return (
+    return (   <Animated>
         <section>
             <h2 id='about' className={style.main__heading_section}>About me</h2>
             <p className={style.education__prof}>Motivated and interested junior developer with half a year experience
@@ -25,5 +26,5 @@ export const AboutMe = () => {
             <p className={style.education__prof}>July 2019 - September 2019. Intern at the quality control
                 department</p>
             <p className={style.education__place}>Novartis, Russia, St Petersburg</p>
-        </section>)
+        </section></Animated>)
 }

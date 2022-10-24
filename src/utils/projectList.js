@@ -12,7 +12,7 @@ export const projectList = [
         date: 'October 2022',
         img: burger,
         github: 'https://github.com/Tanya1621/react-burgers/tree/master',
-        technologies: 'React Redux JS API DnD'
+        technologies: ['React','Redux','JS','API','DnD']
 
     }, {
         name: 'Mesto-project',
@@ -21,7 +21,7 @@ export const projectList = [
         date: 'July 2022',
         img: mesto,
         github: 'https://github.com/Tanya1621/mesto-project',
-        technologies: 'JS OOP API Validation'
+        technologies: ['JS','OOP','API','Validation']
     },
     {
         name: 'Lisa Alert Courses',
@@ -30,7 +30,7 @@ export const projectList = [
         date: 'April 2022',
         img: lisa,
         github: 'https://github.com/Tanya1621/lisa-alert-courses',
-        technologies: 'JavaScript CSS HTML'
+        technologies: ['JavaScript','CSS','HTML']
 
     },
     {
@@ -40,7 +40,7 @@ export const projectList = [
         date: 'March 2022',
         img: pie,
         github: 'https://github.com/Tanya1621/My-cat',
-        technologies: 'JavaScript CSS HTML'
+        technologies: ['JavaScript','CSS','HTML']
     },
     {
         name: 'Russian travel',
@@ -49,7 +49,7 @@ export const projectList = [
         date: 'February 2022',
         img: travel,
         github: 'https://github.com/Tanya1621/russian-travel',
-        technologies: 'CSS Adaptive Web Design HTML'
+        technologies: ['CSS','Adaptive Web Design','HTML']
 
     }, {
         name: 'How to learn',
@@ -58,7 +58,7 @@ export const projectList = [
         github: 'https://github.com/Tanya1621/how-to-learn',
         date: 'January 2022',
         img: learn,
-        technologies: 'HTML CSS'
+        technologies: ['HTML','CSS']
     }
 
 ]

@@ -23,3 +23,13 @@
   font-size: $size-main-text;
   margin-bottom: 10px;
 }
+
+.link {
+  text-decoration: none;
+  color: $main-font-color;
+  transition: color .3s ease;
+}
+
+.link:hover {
+  color: $secondary-color;
+}

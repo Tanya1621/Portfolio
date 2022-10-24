@@ -2,7 +2,7 @@
 
 .header {
     width: 100%;
-    min-height: 150px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,13 +43,86 @@
     padding: 0;
     color: $main-font-color;
     transition: color .3s ease;
+    text-decoration: none;
 }
 
 .header__list_item:hover {
     color: $secondary-color;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+
+
+.activeLink {
+    composes: header__list_item;
+    color: $secondary-color
+}
+
+.header__button {
+    display: none;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    background-image: var(--menu-icon);
+    background-size: contain;
+    transition: opacity .3s ease;
+}
+
+.header__button:hover {
+    opacity: .7;
+}
+@media screen and (max-width: 800px) {
+    .header__list {
+        display: none;
+    }
+
+    .header__list_active {
+        display: flex;
+        flex-direction: column;
+        background-color: $background-block-color;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__button {
+        display: block;
+    }
+
+    .header__name {
+        font-size: 25px;
+    }
+
+    .header__surname {
+        composes: header__name;
+        font-size: 25px;
+
+    }
+    .header {
+        padding: 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        padding: 0 20px;
+        height: 80px;
+    }
+    .header__name {
+        font-size: 20px;
+    }
+
+    .header__surname {
+        composes: header__name;
+        font-size: 20px;
+
+    }
+
+
 }

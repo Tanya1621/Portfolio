@@ -1,12 +1,13 @@
 @import "../../variables";
 
 .footer {
-  min-height: 100px;
+  height: 100px;
   background-color: $background-block-color;
   display: flex;
   padding: 20px;
   justify-content: flex-end;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .footer__text {
@@ -27,4 +28,33 @@
   height: 30px;
   border-radius: 50%;
   background-color: $main-font-color;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    height: 80px;
+  }
+
+  .switch {
+    width: 35px;
+    height: 20px;}
+
+  .switcher__circle {
+    width: 20px;
+    height: 20px;}
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .footer {
+    height: 50px;
+    padding: 10px;
+  }
+
+
+
+
+
+
 }

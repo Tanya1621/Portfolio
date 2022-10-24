@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
 }
@@ -11,6 +13,7 @@ body {
   --header-background: url('https://static.vecteezy.com/system/resources/previews/004/141/314/original/blue-sky-wallpaper-clear-air-heavenly-background-illustration-vector.jpg');
   --switcher: left;
   --buttons-background: rgba(235, 235, 235, 1);
+  --menu-icon: url('./menu_dark.svg')
 ;
 }
 [data-theme="dark"] {
@@ -19,9 +22,10 @@ body {
   --additional-color: #A1A1C6;
   --additional-background-color: #112240;
   --switcher-background:  #A1A1C6;
-  --header-background:  url('./ea1d9797c9bf3dda7a23b238e5e4b364.jpeg');
+  --header-background:  url('../public/ea1d9797c9bf3dda7a23b238e5e4b364.jpeg');
   --switcher: right;
   --buttons-background: rgba(67, 67, 67, 1);
+  --menu-icon: url('./menu.svg')
 
 }
 

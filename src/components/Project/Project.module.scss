@@ -13,7 +13,6 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   min-height: 350px;
   position: relative;
   max-width: 800px;
@@ -26,16 +25,26 @@ h3 {
   font-size: $size-headings;
   text-align: left;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .project__technologies  {
   @include font-color-secondary;
+  color: var(--background-color);
   font-size: $size-main-text;
   text-align: left;
   margin-bottom: 10px;
   position: relative;
-  z-index: 2;
+
 }
+ .project__technology {
+   background-color: $main-font-color;
+   border-radius: 20px;
+   padding: 5px 10px;
+   margin-right: 5px;
+   text-align: center;
+   white-space: nowrap;
+ }
 
 .project__description {
   width: 400px;
@@ -97,11 +106,12 @@ p {
   font-size: 16px;
   color: white;
   text-align: left;
+  margin-top: 5px;
 }
 
 .project__github_img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   fill: white;
   margin-right: 10px;
   transition: opacity .3s ease;
@@ -109,4 +119,91 @@ p {
 
 .project__github_img:hover{
   opacity: .5;
+}
+
+@media screen and (max-width: 960px) {
+.project__pic {
+  width: 400px;
+  height: 267px;
+}
+
+  .project__description {
+    width: 333px;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .project {
+    align-items: center;
+  }
+  .project__pic {
+    position: relative;
+    margin: 0 auto
+  }
+  .project__pic_cover {
+    display: none;
+  }
+  .project__description {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .project__links {
+    text-align: center;
+  }
+  .project__technologies {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .project {
+    width: calc(100% - 100px);
+  }
+  .project__pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .project__description {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .project__technology {
+    font-size: 16px;
+  }
+
+  .project__technology {
+    font-size: 20px;
+  }
+  .project__heading {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .project {
+    width: 100%;
+  }
+
+  .project__technology {
+    font-size: 16px;
+  }
+
+  .project__heading {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }
