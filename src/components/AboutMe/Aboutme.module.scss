@@ -1,13 +1,13 @@
 @import "../../variables";
 
 .main__heading_section {
-  @include heading
+  @include heading;
+  text-align: left;
+  margin: 20px auto;
+  width: calc(100% - 200px);
 }
 .main__heading{
-  @include font-color-main;
-  font-size: $size-headings;
-  text-align: left;
-  margin-left: 100px;
+  composes: main__heading_section;
 }
 
 .education__prof{
@@ -23,4 +23,37 @@
   color: $secondary-color;
   margin-bottom: 20px;
 
+}
+
+@media screen and (max-width: 600px){
+.main__heading {
+  @include heading-medium;
+  margin: 0 auto;
+}
+  .main__heading_section {
+    composes: main__heading;
+  }
+
+  .education__prof {
+    font-size: $size-small-text;
+    max-width: calc(100% - 100px);
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main__heading_section {
+    @include heading-small;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .main__heading {
+    composes: main__heading_section;
+  }
+
+  .education__prof {
+    max-width: calc(100% - 50px);
+    margin: 10px auto;
+  }
 }

@@ -1,37 +1,36 @@
 
-
 body {
-  margin: 0;
+    margin: 0;
 }
 
 [data-theme="light"] {
-  --background-color: #EEFBFF;
-  --primary-color: #0A222A;
-  --additional-color: #0C6F90;
-  --additional-background-color: #47b4e0;
-  --switcher-background: #A4E8FF;
-  --header-background: url('https://static.vecteezy.com/system/resources/previews/004/141/314/original/blue-sky-wallpaper-clear-air-heavenly-background-illustration-vector.jpg');
-  --switcher: left;
-  --buttons-background: rgba(235, 235, 235, 1);
-  --menu-icon: url('./menu_dark.svg')
-;
+    --background-color: linear-gradient(to left, #ddd6f3, #faaca8);
+    --primary-color: #600a05;
+    --additional-color: #695251;
+    --additional-background-color: #FDC1BE;
+    --switcher-background: #f7daf7;
+    --header-background: url("https://on-desktop.com/wps/Backgrounds_Leaf_on_a_stalk_of_bamboo__light_green_background_107535_.png");
+    --switcher: left;
+    --buttons-background: rgba(235, 235, 235, 1);
+    --menu-icon: url('./menu_dark.svg');
 }
+
 [data-theme="dark"] {
-  --background-color: #090920;
-  --primary-color: white;
-  --additional-color: #A1A1C6;
-  --additional-background-color: #112240;
-  --switcher-background:  #A1A1C6;
-  --header-background:  url('../public/ea1d9797c9bf3dda7a23b238e5e4b364.jpeg');
-  --switcher: right;
-  --buttons-background: rgba(67, 67, 67, 1);
-  --menu-icon: url('./menu.svg')
+    --background-color: linear-gradient(to left, #000428, #004e92);
+    --primary-color: white;
+    --additional-color: #A1A1C6;
+            /*//#A1A1C6;*/
+    --additional-background-color: #112240;
+    --switcher-background: #A1A1C6;
+    --header-background: url('../public/ea1d9797c9bf3dda7a23b238e5e4b364.jpeg');
+    --switcher: right;
+    --buttons-background: rgba(67, 67, 67, 1);
+    --menu-icon: url('./menu.svg')
 
 }
-
 
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

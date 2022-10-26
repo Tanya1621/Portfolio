@@ -13,7 +13,7 @@ export const Project = ({project}) => {
         <li className={style.project}>
                 <h3 className={style.project__heading}>{project.name}</h3>
                 <div className={style.project__pic}><img src={project.img} className={style.project__pic}/></div>
-                <div className={style.project__pic_cover}><p className={style.project_capture}>{project.date}</p></div>
+                <div className={style.project__pic_cover}><p className={style.project_capture}></p></div>
                 <div className={style.project__description}><p>{project.description}</p></div>
 
                 <div className={style.project__technologies}>{

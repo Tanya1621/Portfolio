@@ -21,16 +21,14 @@ h3 {
 
 
 .project__heading {
-  @include font-color-main;
-  font-size: $size-headings;
-  text-align: left;
-  margin-bottom: 20px;
+  @include heading;
+  color: $main-font-color;
   width: 100%;
 }
 
 .project__technologies  {
   @include font-color-secondary;
-  color: var(--background-color);
+  color: var(--additional-background-color);
   font-size: $size-main-text;
   text-align: left;
   margin-bottom: 10px;
@@ -49,7 +47,6 @@ h3 {
 .project__description {
   width: 400px;
   min-height: 100px;
-  vertical-align: middle;
   @include font-color-main;
   font-size: $size-main-text;
   background-color: $background-block-color;
@@ -159,6 +156,10 @@ p {
   .project__technologies {
     text-align: center;
   }
+  .project__heading {
+    text-align: center;
+  }
+
 
 }
 
@@ -174,19 +175,20 @@ p {
 
   .project__description {
     width: 100%;
-    font-size: 16px;
+    font-size: $size-small-text;
   }
 
   .project__technology {
-    font-size: 16px;
+    font-size: $size-small-text;
   }
 
   .project__technology {
-    font-size: 20px;
+    font-size: $size-medium-text;
   }
   .project__heading {
-    font-size: 25px;
-    margin-bottom: 15px;
+    @include heading-medium;
+    color: $main-font-color;
+    margin-top: 0;
   }
 
 }
@@ -198,12 +200,13 @@ p {
   }
 
   .project__technology {
-    font-size: 16px;
+    font-size: $size-small-text;
   }
 
   .project__heading {
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px;
+    @include heading-small;
+    margin-top: 0;
+    color: $main-font-color;
   }
 }

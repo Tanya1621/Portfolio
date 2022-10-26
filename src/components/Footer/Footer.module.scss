@@ -2,7 +2,7 @@
 
 .footer {
   height: 100px;
-  background-color: $background-block-color;
+ // background-color: $background-block-color;
   display: flex;
   padding: 20px;
   justify-content: flex-end;
@@ -30,7 +30,7 @@
   background-color: $main-font-color;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .footer {
     height: 80px;
   }
@@ -45,16 +45,13 @@
 
 }
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 450px) {
 
   .footer {
     height: 50px;
     padding: 10px;
   }
-
-
-
-
-
 
 }

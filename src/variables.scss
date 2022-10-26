@@ -4,6 +4,8 @@ $font-family-main: 'Helvetica';
 $size-main-text: 20px;
 $size-headings: 30px;
 $background-block-color: var(--additional-background-color);
+$size-medium-text: 20px;
+$size-small-text: 16px;
 
 //#112240
 
@@ -23,7 +25,21 @@ $background-block-color: var(--additional-background-color);
   font-family: $font-family-main;
   color: $secondary-color;
   font-size: 32px;
-  margin: 20px 0 20px 100px;
+  margin: 10px 0 10px;
   text-align: left;
 
+}
+
+@mixin heading-medium {
+  @include heading;
+  font-size: 25px;
+  margin: 15px 50px;
+  text-align: center;
+}
+
+@mixin heading-small {
+  @include heading;
+  font-size: $size-medium-text;
+  margin: 10px 0;
+  text-align: center;
 }

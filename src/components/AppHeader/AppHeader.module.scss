@@ -9,7 +9,7 @@
     padding: 0 100px;
     box-sizing: border-box;
     color: $main-font-color;
-    background-image: var(--header-background);
+    //background-image: var(--header-background);
 }
 
 .header__name_wrapper {
@@ -71,7 +71,11 @@
 .header__button:hover {
     opacity: .7;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+
+    .header{
+        height: 100px;
+    }
     .header__list {
         display: none;
     }

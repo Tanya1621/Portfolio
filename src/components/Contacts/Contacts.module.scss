@@ -1,13 +1,20 @@
 @import "../../variables";
+.contacts {
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  height: calc(100vh - 250px);
+}
 
 .contacts__heading {
-  @include heading
+  @include heading;
+  margin: 20px auto;
+  width: calc(100% - 200px);
 }
 
 .contacts__area {
   display: grid;
-  width: 500px;
-  grid-template-columns: 1fr 1fr;
+  max-width: 500px;
+  grid-template-columns: 2fr 3fr;
   grid-gap: 20px;
   margin: 50px 0 50px 100px;
 }
@@ -32,4 +39,65 @@
 
 .link:hover {
   color: $secondary-color;
+}
+
+@media screen and (max-width: 900px) {
+  .contacts__heading{
+    text-align: center;
+    width: 100%;
+  }
+
+  .contacts {
+    height: calc(100vh - 200px);
+    width: 100%;
+  }
+
+  .contacts__area {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contacts__area {
+    margin: 50px auto;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .contacts__heading {
+    @include heading-medium;
+    margin: 0 auto;
+  }
+
+  .contact__name {
+    font-size: $size-small-text;
+  }
+
+  .contact_value {
+    font-size: $size-small-text;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacts {
+    height: calc(100vh - 180px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contacts {
+    height: calc(100vh - 130px);
+  }
+  .contacts__heading {
+    @include heading-small;
+    margin: 0 auto;
+  }
+
+  .contacts__area {
+    margin: 20px auto;
+    max-width: 350px;
+    grid-template-columns: 1fr 2fr;
+  }
 }

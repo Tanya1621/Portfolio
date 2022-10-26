@@ -1,4 +1,21 @@
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
 .App {
   text-align: center;
-  background-color: var(--background-color);
+  background: var(--background-color);
+  animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
 }

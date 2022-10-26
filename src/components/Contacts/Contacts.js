@@ -4,7 +4,7 @@ import {Animated} from "../Animated/Animated";
 export const Contacts = () => {
     return (
         <Animated>
-        <section id='contacts'>
+        <section id='contacts' className={style.contacts}>
             <h2 className={style.contacts__heading}>Contacts</h2>
             <div className={style.contacts__area}>
                 <div>
