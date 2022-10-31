@@ -11,7 +11,7 @@ export const Footer = ({theme, setTheme}) => {
     }
     return (
     <footer className={style.footer}>
-        <p className={style.footer__text}>Change theme</p>
+        <p className={style.footer__text}>Change the theme</p>
         <div className={style.switch} onClick={(e) => switchTheme(e)}><div className={style.switcher__circle} ></div></div>
     </footer>
     )

@@ -16,6 +16,6 @@
 .App {
   text-align: center;
   background: var(--background-color);
-  animation: gradient 10s ease infinite;
-  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  background-size: 200% 200%;
 }
