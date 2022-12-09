@@ -12,7 +12,7 @@ body {
     --header-background: url("https://on-desktop.com/wps/Backgrounds_Leaf_on_a_stalk_of_bamboo__light_green_background_107535_.png");
     --switcher: left;
     --buttons-background: rgba(235, 235, 235, 1);
-    --menu-icon: url('./menu_dark.svg');
+    --menu-icon: url('./img/menu_dark.svg');
 }
 
 [data-theme="dark"] {
@@ -25,7 +25,7 @@ body {
     --header-background: url('../public/ea1d9797c9bf3dda7a23b238e5e4b364.jpeg');
     --switcher: right;
     --buttons-background: rgba(67, 67, 67, 1);
-    --menu-icon: url('./menu.svg')
+    --menu-icon: url('./img/menu.svg')
 
 }
 

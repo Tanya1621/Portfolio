@@ -1,5 +1,4 @@
 import style from './Portfolio.module.scss';
-import mesto from '../../travel.png';
 import {projectList} from "../../utils/projectList";
 import {Project} from "../Project/Project";
 import {Animated} from "../Animated/Animated";

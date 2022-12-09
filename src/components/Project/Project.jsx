@@ -1,9 +1,8 @@
 import style from './Project.module.scss'
-import mesto from "../../travel.png";
-import githubBlack from '../../github-black.svg';
-import gitHubWhite from '../../github-white.svg';
-import linkLight from '../../link-light.svg';
-import link from '../../link.svg';
+import githubBlack from '../../img/github-black.svg';
+import gitHubWhite from '../../img/github-white.svg';
+import linkLight from '../../img/link-light.svg';
+import link from '../../img/link.svg';
 import {useContext} from "react";
 import {ThemeContext} from "../App/App";
 

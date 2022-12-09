@@ -1,10 +1,11 @@
-import burger from '../burger-project.png';
-import mesto from '../mesto-r.png';
-import pie from '../Pie-project.png';
-import travel from '../travel.png';
-import lisa from '../lisa.png';
-import learn from '../how-to-learn.png'
-import table from '../periodic.png'
+import burger from '../img/burger-project.png';
+import mesto from '../img/mesto-r.png';
+import pie from '../img/Pie-project.png';
+import travel from '../img/travel.png';
+import lisa from '../img/lisa.png';
+import learn from '../img/how-to-learn.png'
+import table from '../img/periodic.png';
+import space from '../img/space.png';
 
 export const projectList = [
     {
@@ -24,7 +25,17 @@ export const projectList = [
         img: mesto,
         github: 'https://github.com/Tanya1621/mesto-project',
         technologies: ['JS', 'OOP', 'API', 'Validation']
-    }, {
+    },
+    {
+        name: 'SpaceVue',
+        link: 'https://tanya1621.github.io/SpaceVue/',
+        description: 'Website for those who are in love with the Universe and all its mysteries. Let\'s start the adventure from our planet to the another corner of the Universe. My first project on TypeScript and Vue',
+        github: 'https://github.com/Tanya1621/how-to-learn',
+        date: 'December 2022',
+        img: space,
+        technologies: ['Vue', 'TypeScript', 'CSS', 'HTML']
+    },
+    {
         name: 'Periodic table',
         link: 'https://tanya1621.github.io/Periodic-table/',
         description: 'Small project that illustrates the periodic table of elements with a molecular mass calculator. Just drop an element in the drop area. The project was created with using React DnD library and Redux Toolkit',
@@ -69,6 +80,7 @@ export const projectList = [
         date: 'January 2022',
         img: learn,
         technologies: ['HTML', 'CSS']
-    }
+    },
+
 
 ]
