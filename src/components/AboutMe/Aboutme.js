@@ -5,9 +5,9 @@ export const AboutMe = () => {
     return (   <Animated>
         <section>
             <h2 id='about' className={style.main__heading_section}>About me</h2>
-            <p className={style.education__prof}>Motivated and interested junior developer with half a year experience
+            <p className={style.education__prof}>Motivated and interested junior developer with almost a year experience
                 in web development. Passionate
-                towards learning new technologies. Skilled in JS, React.js, Redux</p>
+                towards learning new technologies. Skilled in JavaScript/TypeScript, React, Vue, Redux, HTML, CSS/SCSS</p>
             <h2 className={style.main__heading}>Education</h2>
             <p className={style.education__prof}>January 2022 - present. Frontend developer</p>
             <p className={style.education__place}>Yandex Practicum</p>
@@ -23,8 +23,5 @@ export const AboutMe = () => {
             <p className={style.education__place}>Yandex Practicum</p>
             <p className={style.education__prof}>October 2019 - August 2022. Chemical engineer</p>
             <p className={style.education__place}>Geropharm, Russia, St Petersburg</p>
-            <p className={style.education__prof}>July 2019 - September 2019. Intern at the quality control
-                department</p>
-            <p className={style.education__place}>Novartis, Russia, St Petersburg</p>
         </section></Animated>)
 }
